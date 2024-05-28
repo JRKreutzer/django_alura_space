@@ -111,6 +111,13 @@ table {
     width: 500px;
 }
 
+.busca__button {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+
 .busca__icone {
     cursor: pointer;
     width: 2rem;
