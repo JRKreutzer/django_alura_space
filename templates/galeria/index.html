@@ -1,4 +1,4 @@
-{% extends 'galeria/base.html' %}
+{% extends 'shared/base.html' %}
 {% load static %}
 {% block content %}
             <section class="conteudo">
@@ -15,6 +15,7 @@
                         <li class="tags__tag">Planeta</li>
                     </ul>
                 </section>
+                {% include 'partials/_alertas.html' %}
                 <section class="galeria">
                     <div class="cards">
                         <h2 class="cards__titulo">Navegue pela galeria</h2>
